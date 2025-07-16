@@ -15,7 +15,7 @@ export default function Header() {
         />
       </div>
       <Image
-        src="/Barter.png" // "Barter" text as image
+        src="/Barter.png"
         alt="Barter text logo"
         height={24}
         width={100}
