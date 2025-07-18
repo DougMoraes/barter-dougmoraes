@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { prefix } from '../../prefix';
 
 export default function Partners() {
   return (
@@ -11,42 +12,42 @@ export default function Partners() {
 
       <div className="flex flex-wrap gap-x-4">
         <Image
-          src="/partners/logo_anne_and_max.png"
+          src={`${prefix}/partners/logo_anne_and_max.png`}
           alt="Anne and Max logo"
           height={24}
           width={100}
           className="h-18 w-auto object-contain"
         />
         <Image
-          src="/partners/logo_moco.png"
+          src={`${prefix}/partners/logo_moco.png`}
           alt="Moco logo"
           height={24}
           width={100}
           className="h-18 w-auto object-contain"
         />
         <Image
-          src="/partners/logo_flink.png"
+          src={`${prefix}/partners/logo_flink.png`}
           alt="Flink logo"
           height={24}
           width={100}
           className="h-18 w-auto object-contain"
         />
         <Image
-          src="/partners/logo_louene.png"
+          src={`${prefix}/partners/logo_louene.png`}
           alt="Louène logo"
           height={24}
           width={100}
           className="h-18 w-auto object-contain"
         />
         <Image
-          src="/partners/logo_miniso.png"
+          src={`${prefix}/partners/logo_miniso.png`}
           alt="Miniso logo"
           height={24}
           width={100}
           className="h-18 w-auto object-contain"
         />
         <Image
-          src="/partners/logo_statiegeld.png"
+          src={`${prefix}/partners/logo_statiegeld.png`}
           alt="Statiegeld Nederland logo"
           height={24}
           width={100}

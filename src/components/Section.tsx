@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Footer from "./Footer";
 import Testimonial from "./Testimonial";
+import { prefix } from "../../prefix";
 
 export default function Section() {
   return (
@@ -8,7 +9,7 @@ export default function Section() {
       <div className="w-full h-full flex justify-center px-12">
         <div className="relative w-full h-full">
           <Image
-            src="/hero.png"
+            src={`${prefix}/hero.png`}
             alt="Zipit Promo"
             fill
             className="object-contain"

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { prefix } from "../../prefix";
 
 export default function Footer() {
   return (
@@ -6,7 +7,7 @@ export default function Footer() {
       <div className="flex items-center gap-2 text-white">
         <div className="w-10 h-11 relative">
           <Image
-            src="/logo_zippit.png"
+            src={`${prefix}/logo_zippit.png`}
             alt="Zippit logo"
             width={48}
             height={52}
@@ -25,7 +26,7 @@ export default function Footer() {
       <div className="flex items-center gap-4">
         <button aria-label="Previous">
           <Image
-            src="/arrow.png"
+            src={`${prefix}/arrow.png`}
             alt="Previous"
             width={48}
             height={48}
@@ -34,7 +35,7 @@ export default function Footer() {
         </button>
         <button aria-label="Next">
           <Image
-            src="/arrow.png"
+            src={`${prefix}/arrow.png`}
             alt="Next"
             width={48}
             height={48}

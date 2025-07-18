@@ -1,10 +1,11 @@
 import Image from "next/image";
+import { prefix } from "../../prefix";
 
 export default function Testimonial() {
   return (
     <div className="relative py-4 text-white">
       <Image
-        src="/quote.png"
+        src={`${prefix}/quote.png`}
         alt=""
         width={40}
         height={40}
@@ -21,7 +22,7 @@ export default function Testimonial() {
       </p>
 
       <Image
-        src="/quote.png"
+        src={`${prefix}/quote.png`}
         alt=""
         width={40}
         height={40}
