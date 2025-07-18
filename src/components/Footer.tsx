@@ -14,9 +14,11 @@ export default function Footer() {
           />
         </div>
 
-        <div className="flex flex-col" >
-            <span className="text-[clamp(0.95rem,2vw,1.05rem)] font-medium flex">Zipit</span>
-            <span className="text-[clamp(0.8rem,1.5vw,0.9rem)] text-white/60 flex">E-commerce</span>
+        <div className="flex flex-col">
+          <span className="text-md font-bold flex font-outfit">Zippit</span>
+          <span className="text-base font-normal text-[#7A9799] font-outfit">
+            E-commerce
+          </span>
         </div>
       </div>
 
