@@ -6,7 +6,7 @@ export default function Partners() {
   return (
     <footer className="w-full border-t border-[#D9E1DC] bg-transparent px-4 md:px-10 sticky bottom-0">
       <div className="mx-auto py-6 flex justify-center items-center gap-6">
-        <p className="text-[14px] leading-none tracking-[2px] uppercase font-[400] font-outfit text-center">
+        <p className="text-[14px] leading-none tracking-[2px] uppercase font-[400] text-center">
           Trusted by
         </p>
 

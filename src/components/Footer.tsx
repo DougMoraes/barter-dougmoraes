@@ -15,8 +15,8 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col">
-          <span className="text-md font-bold flex font-outfit">Zippit</span>
-          <span className="text-base font-normal text-[#7A9799] font-outfit">
+          <span className="text-md font-bold flex">Zippit</span>
+          <span className="text-base font-normal text-[#7A9799]">
             E-commerce
           </span>
         </div>
