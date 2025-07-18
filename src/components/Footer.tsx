@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { prefix } from "../../prefix";
+import { prefix } from "../lib/prefix";
 
 export default function Footer() {
   return (

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { prefix } from '../../prefix';
+import { prefix } from '../lib/prefix';
 
 export default function Header() {
   return (

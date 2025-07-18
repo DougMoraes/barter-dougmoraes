@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Footer from "./Footer";
 import Testimonial from "./Testimonial";
-import { prefix } from "../../prefix";
+import { prefix } from "../lib/prefix";
 
 export default function Section() {
   return (
