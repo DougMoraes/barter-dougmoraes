@@ -11,7 +11,7 @@ export default function Testimonial() {
         className="absolute top-0 left-0 z-10"
       />
 
-      <p className="relative z-11 text-left font-semibold text-lg font-bold leading-relaxed pl-6 pr-18">
+      <p className="relative z-11 text-left font-semibold text-lg pl-6 pr-20 leading[1.5] tracking-wide">
         Barter is a fantastic way to connect with influencers at scale. We’ve
         been using it from the very beginning and have already established many
         valuable collaborations through Barter. We still receive daily requests

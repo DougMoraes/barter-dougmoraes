@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="w-full flex items-center justify-between py-8">
+    <div className="w-full flex items-center justify-between pt-8">
       <div className="flex items-center gap-2 text-white">
         <div className="w-10 h-11 relative">
           <Image
@@ -14,9 +14,9 @@ export default function Footer() {
           />
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col ml-2">
           <span className="text-md font-bold flex">Zippit</span>
-          <span className="text-base font-normal text-[#7A9799]">
+          <span className="text-sm font-normal text-[#7A9799]">
             E-commerce
           </span>
         </div>

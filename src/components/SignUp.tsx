@@ -6,11 +6,11 @@ export default function SignUp() {
   return (
     <div className="flex flex-grow items-center justify-center">
       <div className="w-full max-w-lg">
-        <div className="mb-6 px-12 border-b border-gray-300">
+        <div className="mb-6 px-12 border-b border-gray-300 leading[1.5] tracking-wide">
           <h1 className="text-3xl font-medium text-center mb-2 tracking-wide">
             Start your free trial today
           </h1>
-          <p className="text-center text-sm text-[var(--text-light)]">
+          <p className="text-center text-md text-[var(--text-light)]">
             Collaborate with unlimited content creators and influencers in just a few easy steps.
           </p>
           <hr className="mt-6" />
