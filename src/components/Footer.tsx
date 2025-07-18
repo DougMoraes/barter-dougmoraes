@@ -1,60 +1,45 @@
-'use client';
-
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-[#D9E1DC] bg-transparent px-4 md:px-10 sticky bottom-0">
-      <div className="mx-auto py-6 flex justify-center items-center gap-6">
-        <p className="text-[14px] leading-none tracking-[2px] uppercase font-[400] font-outfit text-center">
-          Trusted by
-        </p>
-
-        <div className="flex flex-wrap gap-x-4">
+    <div className="w-full flex items-center justify-between p-8">
+      <div className="flex items-center gap-2 text-white">
+        <div className="w-10 h-11 relative">
           <Image
-            src="/partners/logo_anne_and_max.png"
-            alt="Anne and Max logo"
-            height={24}
-            width={100}
-            className="h-24 w-auto object-contain"
-          />
-          <Image
-            src="/partners/logo_moco.png"
-            alt="Moco logo"
-            height={24}
-            width={100}
-            className="h-24 w-auto object-contain"
-          />
-          <Image
-            src="/partners/logo_flink.png"
-            alt="Flink logo"
-            height={24}
-            width={100}
-            className="h-24 w-auto object-contain"
-          />
-          <Image
-            src="/partners/logo_louene.png"
-            alt="Louène logo"
-            height={24}
-            width={100}
-            className="h-24 w-auto object-contain"
-          />
-          <Image
-            src="/partners/logo_miniso.png"
-            alt="Miniso logo"
-            height={24}
-            width={100}
-            className="h-24 w-auto object-contain"
-          />
-          <Image
-            src="/partners/logo_statiegeld.png"
-            alt="Statiegeld Nederland logo"
-            height={24}
-            width={100}
-            className="h-24 w-auto object-contain"
+            src="/logo_zippit.png"
+            alt="Zippit logo"
+            width={48}
+            height={52}
+            className="object-contain"
           />
         </div>
+
+        <div className="flex flex-col" >
+            <span className="text-[clamp(0.95rem,2vw,1.05rem)] font-medium flex">Zipit</span>
+            <span className="text-[clamp(0.8rem,1.5vw,0.9rem)] text-white/60 flex">E-commerce</span>
+        </div>
       </div>
-    </footer>
+
+      <div className="flex items-center gap-4">
+        <button aria-label="Previous">
+          <Image
+            src="/arrow.png"
+            alt="Previous"
+            width={48}
+            height={48}
+            className="hover:opacity-80 transition"
+          />
+        </button>
+        <button aria-label="Next">
+          <Image
+            src="/arrow.png"
+            alt="Next"
+            width={48}
+            height={48}
+            className="hover:opacity-80 transition rotate-180"
+          />
+        </button>
+      </div>
+    </div>
   );
 }
